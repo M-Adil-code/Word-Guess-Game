@@ -1,17 +1,34 @@
 [
-	{
-		"word":"hello",
-		"hint":"Greatings"
-		
-	},
-	{
-		"word":"car",
-		"hint":"move"
-		
-	},
-	{
-		"word":"adil",
-		"hint":"Name"
-		
-	}
+  { "word": "hello", "hint": "Common greeting", "category": "General", "difficulty": "Easy" },
+  { "word": "car", "hint": "A vehicle that moves on roads", "category": "Transport", "difficulty": "Easy" },
+  { "word": "adil", "hint": "A person's name", "category": "Names", "difficulty": "Easy" },
+  { "word": "pizza", "hint": "Popular Italian food", "category": "Food", "difficulty": "Easy" },
+  { "word": "apple", "hint": "A red or green fruit", "category": "Food", "difficulty": "Easy" },
+  { "word": "train", "hint": "A form of rail transport", "category": "Transport", "difficulty": "Easy" },
+  { "word": "banana", "hint": "A yellow fruit", "category": "Food", "difficulty": "Easy" },
+  { "word": "mouse", "hint": "Computer input device", "category": "Technology", "difficulty": "Easy" },
+  { "word": "river", "hint": "A flowing body of water", "category": "Geography", "difficulty": "Easy" },
+  { "word": "football", "hint": "Popular sport with a ball", "category": "Sports", "difficulty": "Easy" },
+  { "word": "google", "hint": "Famous search engine", "category": "Technology", "difficulty": "Easy" },
+  { "word": "doctor", "hint": "Helps sick people", "category": "Profession", "difficulty": "Easy" },
+  { "word": "zebra", "hint": "Striped African animal", "category": "Animals", "difficulty": "Easy" },
+  { "word": "island", "hint": "Land surrounded by water", "category": "Geography", "difficulty": "Easy" },
+  { "word": "chef", "hint": "Person who cooks professionally", "category": "Profession", "difficulty": "Easy" },
+
+  { "word": "python", "hint": "Popular programming language", "category": "Technology", "difficulty": "Medium" },
+  { "word": "guitar", "hint": "A string musical instrument", "category": "Music", "difficulty": "Medium" },
+  { "word": "oxygen", "hint": "We breathe it in", "category": "Science", "difficulty": "Medium" },
+  { "word": "camera", "hint": "Used to take photographs", "category": "Technology", "difficulty": "Medium" },
+  { "word": "bridge", "hint": "Structure to cross over a river", "category": "Architecture", "difficulty": "Medium" },
+  { "word": "rocket", "hint": "Used to explore space", "category": "Science", "difficulty": "Medium" },
+  { "word": "robot", "hint": "A machine that can perform tasks", "category": "Technology", "difficulty": "Medium" },
+  { "word": "castle", "hint": "Medieval stone fortress", "category": "History", "difficulty": "Medium" },
+
+  { "word": "eclipse", "hint": "When the sun or moon is covered", "category": "Science", "difficulty": "Hard" },
+  { "word": "jupiter", "hint": "Largest planet in the solar system", "category": "Astronomy", "difficulty": "Hard" },
+  { "word": "violin", "hint": "High-pitched string instrument", "category": "Music", "difficulty": "Hard" },
+  { "word": "earthquake", "hint": "Shaking of the ground", "category": "Science", "difficulty": "Hard" },
+  { "word": "telescope", "hint": "Used to see stars and planets", "category": "Astronomy", "difficulty": "Hard" },
+  { "word": "nebula", "hint": "Cloud of gas in space", "category": "Astronomy", "difficulty": "Hard" },
+  { "word": "pyramid", "hint": "Ancient Egyptian structure", "category": "History", "difficulty": "Hard" }
 ]
