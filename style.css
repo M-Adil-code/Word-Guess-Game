@@ -2,7 +2,7 @@ body{
 	background: ghostwhite;
 }
 .container{
-	width: clamp(400px, 70%, 200px) !important;
+    width: clamp(320px, 80vw, 400px) !important;
 	height: auto;
 	margin: auto;
 	transform: translateY(calc(50vh - 50%));
