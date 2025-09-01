@@ -1,7 +1,7 @@
 [
   { "word": "hello", "hint": "Common greeting", "category": "General", "difficulty": "Easy" },
   { "word": "car", "hint": "A vehicle that moves on roads", "category": "Transport", "difficulty": "Easy" },
-  { "word": "adil", "hint": "A person's name", "category": "Names", "difficulty": "Easy" },
+  
   { "word": "pizza", "hint": "Popular Italian food", "category": "Food", "difficulty": "Easy" },
   { "word": "apple", "hint": "A red or green fruit", "category": "Food", "difficulty": "Easy" },
   { "word": "train", "hint": "A form of rail transport", "category": "Transport", "difficulty": "Easy" },

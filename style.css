@@ -1,5 +1,8 @@
+body{
+	background: ghostwhite;
+}
 .container{
-	width: 400px;
+	width: clamp(400px, 70%, 200px) !important;
 	height: auto;
 	margin: auto;
 	transform: translateY(calc(50vh - 50%));
@@ -7,10 +10,11 @@
 	border-radius: 5px;
 	padding: 10px;
 }
-.inputsbox{
+.inputsboxarea{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: start;
+	flex-wrap: wrap;
 }
 input{
 	width: 40px;

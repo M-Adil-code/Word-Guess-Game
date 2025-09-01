@@ -4,6 +4,7 @@ let hintbox = document.querySelector('.hint');
 let wrongword = document.querySelector('.wrongword');
 let guessword = document.querySelector('.guessword');
 let remaining = document.querySelector('.remaining');
+let categary = document.querySelector('.categary')
 
 let data;
 let index = 0;
@@ -37,6 +38,8 @@ let manipulateData = () => {
         let hint = data[index].hint;
         currentWord = word;
         hintbox.innerHTML = hint;
+        categary.innerHTML = data[index].category;
+        document.querySelector('.difficultylevel').innerHTML=data[index].difficulty;
 
         for (let i = 0; i < word.length; i++) {
             let newbox = document.createElement('input');
@@ -58,6 +61,8 @@ let manipulateData = () => {
 
 
 window.addEventListener('keyup', (e) => {
+   guessword.innerHTML=e.key;
+
     if (!currentWord || reterybtn.classList.contains('d-none') === false) return;
 
     const key = e.key.toLowerCase();
